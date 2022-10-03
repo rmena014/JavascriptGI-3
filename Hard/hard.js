@@ -6,6 +6,8 @@ function personalInfo() {
   };
   return {
     getName: function () {
+      // we only want the name to be accessed utilizing this function
+
       return `${pii.fName} ${pii.lName}`;
     },
   };
